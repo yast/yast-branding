@@ -29,8 +29,7 @@ Prefix:         /usr
 BuildRequires:  yast2-devtools
 BuildArch:      noarch
 Provides:       yast2-branding
-Conflicts:      yast2-branding-openSUSE
-Conflicts:      yast2-branding-SLES
+Conflicts:      otherproviders(yast2-branding)
 Requires:       yast2-theme-SLE
 Summary:        SLED branding for YaST
 

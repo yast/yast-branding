@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Mon Oct  6 18:28:24 CEST 2008 - sbrabec@suse.cz
+
+- Conflict with other branding providers (FATE#304881).
+
+-------------------------------------------------------------------
 Tue Sep 30 12:16:22 CEST 2008 - jsrain@suse.cz
 
 - reduced BuildRequires
