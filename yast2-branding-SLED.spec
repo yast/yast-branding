@@ -31,6 +31,7 @@ BuildArch:      noarch
 Provides:       yast2-branding
 Conflicts:      otherproviders(yast2-branding)
 Requires:       yast2-theme-SLE
+Requires:       branding-SLED
 Summary:        SLED branding for YaST
 
 %description

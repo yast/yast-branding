@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Mon Nov  3 12:53:27 CET 2008 - coolo@suse.de
+
+- require the branding package
+
+-------------------------------------------------------------------
 Mon Oct  6 18:28:24 CEST 2008 - sbrabec@suse.cz
 
 - Conflict with other branding providers (FATE#304881).

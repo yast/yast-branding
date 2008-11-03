@@ -31,6 +31,7 @@ BuildArch:      noarch
 Provides:       yast2-branding
 Conflicts:      otherproviders(yast2-branding)
 Requires:       yast2-theme-openSUSE-any
+Requires:       branding-openSUSE
 Summary:        openSuSE branding for YaST
 
 %description
