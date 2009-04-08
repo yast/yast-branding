@@ -19,7 +19,7 @@
 
 
 Name:           yast2-branding-SLES
-Version:        2.17.0
+Version:        2.18.0
 Release:        6
 License:        GPL v2 or later
 Group:          System/YaST
@@ -31,7 +31,7 @@ BuildArch:      noarch
 Provides:       yast2-branding
 Conflicts:      otherproviders(yast2-branding)
 Requires:       yast2-theme-SLE
-Requires:       branding-SLES
+Supplements:    packageand(yast2:branding-SLES)
 Summary:        SLES branding for YaST
 
 %description

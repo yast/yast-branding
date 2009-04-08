@@ -19,7 +19,7 @@
 
 
 Name:           yast2-branding-openSUSE
-Version:        2.17.0
+Version:        2.18.0
 Release:        6
 License:        GPL v2 or later
 Group:          System/YaST
@@ -29,9 +29,10 @@ Prefix:         /usr
 BuildRequires:  yast2-devtools
 BuildArch:      noarch
 Provides:       yast2-branding
+Supplements:    packageand(yast2:branding-openSUSE)
+Supplements:    packageand(yast2:branding-upstream)
 Conflicts:      otherproviders(yast2-branding)
 Requires:       yast2-theme-openSUSE-any
-Requires:       branding-openSUSE
 Summary:        openSuSE branding for YaST
 
 %description

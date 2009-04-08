@@ -19,7 +19,7 @@
 
 
 Name:           yast2-branding-SLED
-Version:        2.17.0
+Version:        2.18.0
 Release:        6
 License:        GPL v2 or later
 Group:          System/YaST
@@ -29,9 +29,9 @@ Prefix:         /usr
 BuildRequires:  yast2-devtools
 BuildArch:      noarch
 Provides:       yast2-branding
+Supplements:    packageand(yast2:branding-SLED)
 Conflicts:      otherproviders(yast2-branding)
 Requires:       yast2-theme-SLE
-Requires:       branding-SLED
 Summary:        SLED branding for YaST
 
 %description
