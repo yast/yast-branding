@@ -29,8 +29,10 @@ Prefix:         /usr
 BuildRequires:  yast2-devtools
 BuildArch:      noarch
 Provides:       yast2-branding
-Supplements:    packageand(yast2:branding-openSUSE)
-Supplements:    packageand(yast2:branding-upstream)
+Supplements:    packageand(yast2-qt:branding-openSUSE)
+Supplements:    packageand(yast2-gtk:branding-openSUSE)
+Supplements:    packageand(yast2-qt:branding-upstream)
+Supplements:    packageand(yast2-gtk:branding-upstream)
 Conflicts:      otherproviders(yast2-branding)
 Requires:       yast2-theme-openSUSE-any
 Summary:        openSuSE branding for YaST
