@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Wed Jul 31 13:32:08 UTC 2013 - lslezak@suse.cz
+
+- version 3.0.0
+
+-------------------------------------------------------------------
 Wed Apr  8 14:48:44 CEST 2009 - jsrain@suse.cz
 
 - fixed dependencies (added missing supplements, removed

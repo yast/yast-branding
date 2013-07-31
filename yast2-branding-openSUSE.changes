@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Wed Jul 31 13:32:08 UTC 2013 - lslezak@suse.cz
+
+- version 3.0.0
+
+-------------------------------------------------------------------
 Fri Jan 20 15:41:23 CET 2012 - tgoettlicher@suse.de
 
 - fixed bnc#740162: dependency problem with yast-qt

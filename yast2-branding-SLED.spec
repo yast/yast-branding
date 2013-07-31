@@ -19,7 +19,7 @@
 
 
 Name:           yast2-branding-SLED
-Version:        2.18.0
+Version:        3.0.0
 Release:        6
 License:        GPL v2 or later
 Group:          System/YaST
