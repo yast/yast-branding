@@ -1,7 +1,7 @@
 #
-# spec file for package yast2-branding-SLES (Version 2.17.0)
+# spec file for package yast2-branding-SLES
 #
-# Copyright (c) 2008 SUSE LINUX Products GmbH, Nuernberg, Germany.
+# Copyright (c) 2012 SUSE LINUX Products GmbH, Nuernberg, Germany.
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -15,14 +15,10 @@
 # Please submit bugfixes or comments via http://bugs.opensuse.org/
 #
 
-# norootforbuild
-
 
 Name:           yast2-branding-SLES
 Version:        3.0.0
-Release:        6
-License:        GPL v2 or later
-Group:          System/YaST
+Release:        0
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source0:        COPYING
 Prefix:         /usr
@@ -33,6 +29,8 @@ Conflicts:      otherproviders(yast2-branding)
 Requires:       yast2-theme-SLE
 Supplements:    packageand(yast2:branding-SLES)
 Summary:        SLES branding for YaST
+License:        GPL-2.0+
+Group:          System/YaST
 
 %description
 YaST branding for the SUSE LINUX Enterprise Server distribution
@@ -55,7 +53,3 @@ ln -sf SLE current
 %{prefix}/share/YaST2/theme/current
 
 %changelog
-* Tue Sep 30 2008 kukuk@suse.de
-- Change to use yast2-theme-SLE
-* Thu Sep 11 2008 jsrain@suse.cz
-- initial package (fate #301794)

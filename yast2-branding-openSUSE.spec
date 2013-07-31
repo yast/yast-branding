@@ -1,7 +1,7 @@
 #
-# spec file for package yast2-branding-openSUSE (Version 2.17.0)
+# spec file for package yast2-branding-openSUSE
 #
-# Copyright (c) 2008 SUSE LINUX Products GmbH, Nuernberg, Germany.
+# Copyright (c) 2012 SUSE LINUX Products GmbH, Nuernberg, Germany.
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -15,14 +15,10 @@
 # Please submit bugfixes or comments via http://bugs.opensuse.org/
 #
 
-# norootforbuild
-
 
 Name:           yast2-branding-openSUSE
 Version:        3.0.0
-Release:        6
-License:        GPL v2 or later
-Group:          System/YaST
+Release:        0
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source0:        COPYING
 Prefix:         /usr
@@ -36,6 +32,8 @@ Supplements:    packageand(yast2-gtk:branding-upstream)
 Conflicts:      otherproviders(yast2-branding)
 Requires:       yast2-theme-openSUSE-any
 Summary:        openSuSE branding for YaST
+License:        GPL-2.0+
+Group:          System/YaST
 
 %description
 YaST branding for the openSUSE distribution
@@ -58,5 +56,3 @@ ln -sf openSUSE-current current
 %{prefix}/share/YaST2/theme/current
 
 %changelog
-* Thu Sep 11 2008 jsrain@suse.cz
-- initial package (fate #301794)
