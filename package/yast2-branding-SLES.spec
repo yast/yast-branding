@@ -17,7 +17,7 @@
 
 
 Name:           yast2-branding-SLES
-Version:        3.0.0
+Version:        3.1.0
 Release:        0
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source0:        COPYING
