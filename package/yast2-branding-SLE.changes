@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Jul  1 14:53:02 CEST 2014 - gs@suse.de
+
+- merge yast2-branding-SLES and yast2-branding-SLED to
+  yast2-branding-SLE (bnc #883485)
+- 3.1.1
+
+-------------------------------------------------------------------
 Fri Jan 24 09:54:16 UTC 2014 - lslezak@suse.cz
 
 - updated the Git source structure to be compatible with Yast
