@@ -17,7 +17,7 @@
 
 
 Name:           yast2-branding-SLE
-Version:        3.1.1
+Version:        3.1.0
 Release:        0
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source0:        COPYING
