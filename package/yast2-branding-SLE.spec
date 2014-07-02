@@ -25,6 +25,8 @@ Prefix:         /usr
 BuildRequires:  yast2-devtools
 BuildArch:      noarch
 Provides:       yast2-branding
+Provides:       yast2-branding-SLES = 3.1.0, yast2-branding-SLED = 3.1.0
+Obsoletes:      yast2-branding-SLES <= 3.1.0, yast2-branding-SLED <= 3.1.0
 Conflicts:      otherproviders(yast2-branding)
 Requires:       yast2-theme-SLE
 Supplements:    packageand(yast2:branding-SLE)
